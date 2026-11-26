@@ -32,7 +32,7 @@
       <text x="46" y="232">из указанной зоны.</text>
       <text x="380" y="209">Результат подключения</text>
       <text x="380" y="232">к серверу PostgreSQL.</text>
-      <text x="714" y="209">Например, создание заявки</text>
+      <text x="714" y="209">Например, запись на игру</text>
       <text x="714" y="232">и чтение её ID и статуса.</text>
     </g>
     <g fill="none" stroke="#276284" stroke-width="2.5" marker-end="url(#arrow)">

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="388" viewBox="0 0 1000 388" role="img" aria-labelledby="title description">
-  <title id="title">Удалённый доступ к кадровой ИСПДн</title>
+  <title id="title">Удалённый доступ к ИСПДн клуба</title>
   <desc id="description">Сотрудник проходит VPN и подключается к порталу. Портал использует служебное TLS-подключение к PostgreSQL. Администратор обращается к серверу портала через выделенный пул и узел-посредник.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
@@ -8,7 +8,7 @@
   </defs>
   <rect x="1" y="1" width="998" height="386" rx="18" fill="#f5f8fc" stroke="#cfdae7" stroke-width="2"/>
   <g font-family="Segoe UI, Arial, sans-serif" fill="#17283d">
-    <text x="28" y="48" font-size="30" font-weight="700">Удалённый доступ к кадровой ИСПДн</text>
+    <text x="28" y="48" font-size="30" font-weight="700">Удалённый доступ к ИСПДн клуба</text>
     <text x="28" y="81" font-size="19" fill="#405975">Целевые маршруты по матрице Д4</text>
     <rect x="28" y="137" width="172" height="89" rx="12" fill="#ffffff" stroke="#aac1d7" stroke-width="2"/>
     <text x="114" y="173" text-anchor="middle" font-size="21" font-weight="700">Клиент</text>
@@ -17,7 +17,7 @@
     <text x="370" y="173" text-anchor="middle" font-size="21" font-weight="700">VPN-шлюз</text>
     <text x="370" y="199" text-anchor="middle" font-size="17" fill="#405975">MFA и устройство</text>
     <rect x="544" y="137" width="172" height="89" rx="12" fill="#ffffff" stroke="#aac1d7" stroke-width="2"/>
-    <text x="630" y="173" text-anchor="middle" font-size="18" font-weight="700">Кадровый портал</text>
+    <text x="630" y="173" text-anchor="middle" font-size="18" font-weight="700">Кабинет ведущего</text>
     <text x="630" y="199" text-anchor="middle" font-size="17" fill="#405975">HTTPS</text>
     <rect x="804" y="137" width="168" height="89" rx="12" fill="#ffffff" stroke="#aac1d7" stroke-width="2"/>
     <text x="888" y="173" text-anchor="middle" font-size="21" font-weight="700">PostgreSQL</text>

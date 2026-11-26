@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="366" viewBox="0 0 1000 366" role="img" aria-labelledby="title description">
-  <title id="title">Хронология отзыва кадровой роли</title>
-  <desc id="description">В 09:54 создан сеанс S17. В 10:00 снята группа hr. По Л1 отзыв прав требуется к 10:15. В 10:22 прежний сеанс получает кадровый отчёт. В 10:25 новый сеанс сохраняет роль staff.</desc>
+  <title id="title">Хронология отзыва роли организатора</title>
+  <desc id="description">В 09:54 создан сеанс S17. В 10:00 снята группа organizer. По Л1 отзыв прав требуется к 10:15. В 10:22 прежний сеанс получает список участников. В 10:25 новый сеанс сохраняет роль staff.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
       <path d="M0 0 L10 5 L0 10Z" fill="#276284"/>
@@ -8,7 +8,7 @@
   </defs>
   <rect x="1" y="1" width="998" height="364" rx="18" fill="#f5f8fc" stroke="#cfdae7" stroke-width="2"/>
   <g font-family="Segoe UI, Arial, sans-serif" fill="#17283d">
-    <text x="28" y="48" font-size="30" font-weight="700">Хронология отзыва кадровой роли</text>
+    <text x="28" y="48" font-size="30" font-weight="700">Хронология отзыва роли организатора</text>
     <text x="28" y="81" font-size="19" fill="#405975">Обращение H42, пользователь U17</text>
     <path d="M61 179 H941" fill="none" stroke="#a4b7cb" stroke-width="3" marker-end="url(#arrow)"/>
     <g text-anchor="middle" font-weight="700" font-size="23">
@@ -27,17 +27,17 @@
     </g>
     <g text-anchor="middle" font-size="18" fill="#405975">
       <text x="124" y="217">Сеанс S17</text>
-      <text x="124" y="243">получает роль hr</text>
-      <text x="306" y="217">Группа hr снята</text>
+      <text x="124" y="243">получает роль organizer</text>
+      <text x="306" y="217">Группа organizer снята</text>
       <text x="306" y="243">в каталоге</text>
       <text x="500" y="217">Срок отзыва</text>
       <text x="500" y="243">по Л1</text>
       <text x="690" y="217">Сеанс S17 открывает</text>
-      <text x="690" y="243">кадровый отчёт</text>
+      <text x="690" y="243">список участников</text>
       <text x="881" y="217">Сеанс S18 сохраняет</text>
       <text x="881" y="243">роль staff</text>
     </g>
     <rect x="28" y="276" width="944" height="59" rx="12" fill="#fff2de" stroke="#e2c39c" stroke-width="2"/>
-    <text x="49" y="312" font-size="19" fill="#754b24"><tspan font-weight="700">Отклонение.</tspan> Кадровый доступ сохранился спустя 22 минуты после снятия группы.</text>
+    <text x="49" y="312" font-size="19" fill="#754b24"><tspan font-weight="700">Отклонение.</tspan> Доступ к списку сохранился спустя 22 минуты после снятия группы.</text>
   </g>
 </svg>

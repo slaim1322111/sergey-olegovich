@@ -3,7 +3,7 @@ marp: true
 theme: default
 size: 16:9
 paginate: true
-title: Сегментация и проверка TLS
+title: "Сегментация и проверка TLS | АБАС"
 style: |
   section { background: #f5f8fc; color: #17283d; font-family: 'Segoe UI', sans-serif; font-size: 31px; padding: 70px 80px; }
   h1, h2 { color: #103c61; }
@@ -21,17 +21,17 @@ style: |
 
 Для каждой строки сравнивают цель с наблюдением из той же сетевой зоны.
 
-<!-- 1 минута. Основание: п. 8.13 приказа № 21, конкретные критерии задаёт кейс. https://www.consultant.ru/document/cons_doc_LAW_146520/ -->
+<!-- Основание: п. 8.13 приказа № 21, конкретные критерии задаёт кейс. https://www.consultant.ru/document/cons_doc_LAW_146520/ -->
 
 ---
 
 ## Имя сервиса в TLS
 
-Клиент ожидает zayavki.example.
+Клиент ожидает zapis.trolli.example.
 
-Цепочка доверия, срок и соответствие имени в SAN проверяются отдельно. Имя old.example не подтверждает zayavki.example.
+Цепочка доверия, срок и соответствие имени в SAN проверяются отдельно. Имя old.trolli.example не подтверждает zapis.trolli.example.
 
-<!-- 2 минуты. Разберите Д5-TLS. RFC 9525: https://www.rfc-editor.org/rfc/rfc9525.html -->
+<!-- Разберите Д5-TLS. RFC 9525: https://www.rfc-editor.org/rfc/rfc9525.html -->
 
 ---
 
@@ -43,4 +43,4 @@ style: |
 
 Из пользовательской зоны проверьте отказ прямого доступа к приложению и БД.
 
-<!-- 2 минуты. Сопоставьте проверки со строками F1, F2, F3, F6 и F7. -->
+<!-- Сопоставьте проверки со строками F1, F2, F3, F6 и F7. -->

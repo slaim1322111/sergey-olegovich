@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="354" viewBox="0 0 1000 354" role="img" aria-labelledby="title desc">
   <title id="title">Проверка отправителя и его очереди</title>
-  <desc id="desc">При mTLS проверяют имя сервера и сертификаты, устанавливая идентичность филиала. Затем приложение сверяет полномочия филиала. При M32 TLS успешен, но филиал Б получил доступ к очереди А вопреки правилам.</desc>
+  <desc id="desc">При mTLS проверяют имя сервера и сертификаты, устанавливая идентичность площадки. Затем приложение сверяет полномочия площадки. При M32 TLS успешен, но шлюз площадки Б получил доступ к очереди А вопреки правилам.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
       <path d="M0 0 L10 5 L0 10Z" fill="#276284"/>

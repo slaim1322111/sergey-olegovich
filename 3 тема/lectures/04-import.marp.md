@@ -3,7 +3,7 @@ marp: true
 theme: default
 size: 16:9
 paginate: true
-title: Целостность пакета и повторная доставка
+title: "Целостность пакета и повторная доставка | АБАС"
 style: |
   section { background: #f5f8fc; color: #17283d; font-family: 'Segoe UI', sans-serif; font-size: 31px; padding: 70px 80px; }
   h1, h2 { color: #103c61; }
