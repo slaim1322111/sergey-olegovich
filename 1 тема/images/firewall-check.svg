@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-labelledby="title desc">
+  <title id="title">Проверка правила межсетевого экрана</title>
+  <desc id="desc">По целевой матрице F6 должен блокироваться. В исходном наблюдении событие E106 показывает, что правило R90 разрешило соединение. При повторной проверке ожидается блокировка F6 с записью в журнале и сохранение разрешённого потока F3.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L10 5 L0 10Z" fill="#276284"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="358" rx="18" fill="#f5f8fc" stroke="#cfdae7" stroke-width="2"/>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#17283d">
+    <text x="28" y="46" font-size="30" font-weight="700">Проверка правила межсетевого экрана</text>
+    <text x="28" y="80" font-size="19" fill="#405975">Проверка ограничения прямого доступа пользователей к БД</text>
+
+    <rect x="28" y="111" width="276" height="151" rx="12" fill="#ffffff" stroke="#aac1d7" stroke-width="2"/>
+    <rect x="362" y="111" width="276" height="151" rx="12" fill="#fff5e8" stroke="#d9bd9c" stroke-width="2"/>
+    <rect x="696" y="111" width="276" height="151" rx="12" fill="#ecf5f3" stroke="#aaccc3" stroke-width="2"/>
+
+    <g font-size="15" font-weight="700" letter-spacing="1">
+      <text x="46" y="140" fill="#235879">1. КРИТЕРИЙ</text>
+      <text x="380" y="140" fill="#805424">2. НАБЛЮДЕНИЕ</text>
+      <text x="714" y="140" fill="#2b665a">3. ОЖИДАЕМЫЙ РЕЗУЛЬТАТ</text>
+    </g>
+    <g font-size="21" font-weight="700">
+      <text x="46" y="178">F6 нужно блокировать</text>
+      <text x="380" y="178">F6 проходит</text>
+      <text x="714" y="178">F6 закрыт, F3 доступен</text>
+    </g>
+    <g font-size="18" fill="#405975">
+      <text x="46" y="211">Основание — целевая</text>
+      <text x="46" y="234">матрица потоков.</text>
+      <text x="380" y="211">Событие E106 в журнале.</text>
+      <text x="380" y="234">Правило R90, действие allow.</text>
+      <text x="714" y="211">Проверить отказ по F6</text>
+      <text x="714" y="234">и найти его в журнале.</text>
+    </g>
+    <g fill="none" stroke="#276284" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M308 186 H358"/>
+      <path d="M642 186 H692"/>
+    </g>
+
+    <text x="28" y="301" font-size="18" fill="#405975"><tspan font-weight="700">F6</tspan> · Пользователи → PostgreSQL, TCP/5432</text>
+    <text x="28" y="327" font-size="18" fill="#405975"><tspan font-weight="700">F3</tspan> · Приложение → PostgreSQL, TLS/5432</text>
+  </g>
+</svg>
