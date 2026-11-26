@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="388" viewBox="0 0 1000 388" role="img" aria-labelledby="title description">
+  <title id="title">Удалённый доступ к кадровой ИСПДн</title>
+  <desc id="description">Сотрудник проходит VPN и подключается к порталу. Портал использует служебное TLS-подключение к PostgreSQL. Администратор обращается к серверу портала через выделенный пул и узел-посредник.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L10 5 L0 10Z" fill="#276284"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="998" height="386" rx="18" fill="#f5f8fc" stroke="#cfdae7" stroke-width="2"/>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#17283d">
+    <text x="28" y="48" font-size="30" font-weight="700">Удалённый доступ к кадровой ИСПДн</text>
+    <text x="28" y="81" font-size="19" fill="#405975">Целевые маршруты по матрице Д4</text>
+    <rect x="28" y="137" width="172" height="89" rx="12" fill="#ffffff" stroke="#aac1d7" stroke-width="2"/>
+    <text x="114" y="173" text-anchor="middle" font-size="21" font-weight="700">Клиент</text>
+    <text x="114" y="199" text-anchor="middle" font-size="17" fill="#405975">Рабочий ноутбук</text>
+    <rect x="284" y="137" width="172" height="89" rx="12" fill="#ffffff" stroke="#aac1d7" stroke-width="2"/>
+    <text x="370" y="173" text-anchor="middle" font-size="21" font-weight="700">VPN-шлюз</text>
+    <text x="370" y="199" text-anchor="middle" font-size="17" fill="#405975">MFA и устройство</text>
+    <rect x="544" y="137" width="172" height="89" rx="12" fill="#ffffff" stroke="#aac1d7" stroke-width="2"/>
+    <text x="630" y="173" text-anchor="middle" font-size="18" font-weight="700">Кадровый портал</text>
+    <text x="630" y="199" text-anchor="middle" font-size="17" fill="#405975">HTTPS</text>
+    <rect x="804" y="137" width="168" height="89" rx="12" fill="#ffffff" stroke="#aac1d7" stroke-width="2"/>
+    <text x="888" y="173" text-anchor="middle" font-size="21" font-weight="700">PostgreSQL</text>
+    <text x="888" y="199" text-anchor="middle" font-size="17" fill="#405975">Сегмент данных</text>
+    <rect x="415" y="283" width="170" height="79" rx="12" fill="#ffffff" stroke="#aac1d7" stroke-width="2"/>
+    <text x="500" y="319" text-anchor="middle" font-size="18" font-weight="700">Узел-посредник</text>
+    <text x="500" y="345" text-anchor="middle" font-size="17" fill="#405975">Сеть управления</text>
+    <g fill="none" stroke="#276284" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M201 181 H280"/>
+      <path d="M457 181 H540"/>
+      <path d="M717 181 H800"/>
+      <path d="M370 228 V322 H411"/>
+      <path d="M586 322 H630 V230"/>
+    </g>
+    <g text-anchor="middle" font-size="16" font-weight="700" fill="#235879">
+      <text x="242" y="166">F1 · 443</text>
+      <text x="500" y="166">F2 · 443</text>
+      <text x="760" y="166">F3 · 5432</text>
+      <text x="230" y="315">F4 · SSH 22</text>
+      <text x="707" y="310">F5 · SSH 22</text>
+    </g>
+    <text x="230" y="338" text-anchor="middle" font-size="17" fill="#405975">Пул VPN администраторов</text>
+    <text x="761" y="202" text-anchor="middle" font-size="16" fill="#405975">TLS</text>
+  </g>
+</svg>
