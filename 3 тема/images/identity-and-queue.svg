@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="354" viewBox="0 0 1000 354" role="img" aria-labelledby="title desc">
+  <title id="title">Проверка отправителя и его очереди</title>
+  <desc id="desc">При mTLS проверяют имя сервера и сертификаты, устанавливая идентичность филиала. Затем приложение сверяет полномочия филиала. При M32 TLS успешен, но филиал Б получил доступ к очереди А вопреки правилам.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L10 5 L0 10Z" fill="#276284"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="998" height="352" rx="18" fill="#f5f8fc" stroke="#cfdae7" stroke-width="2"/>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#17283d">
+    <text x="28" y="47" font-size="30" font-weight="700">Проверка отправителя и его очереди</text>
+    <text x="28" y="80" font-size="19" fill="#405975">Два решения по одному запросу</text>
+    <rect x="28" y="109" width="424" height="137" rx="12" fill="#fff" stroke="#aac1d7" stroke-width="2"/>
+    <rect x="548" y="109" width="424" height="137" rx="12" fill="#fff" stroke="#aac1d7" stroke-width="2"/>
+    <g font-size="16" font-weight="700" fill="#235879">
+      <text x="48" y="139">1. ПРОВЕРКА MTLS</text>
+      <text x="568" y="139">2. ПРИКЛАДНОЙ ДОПУСК</text>
+    </g>
+    <g font-size="21" font-weight="700">
+      <text x="48" y="176">Кто подключился?</text>
+      <text x="568" y="176">Какая очередь разрешена?</text>
+    </g>
+    <g font-size="18" fill="#405975">
+      <text x="48" y="207">Ожидаемое имя сервера</text>
+      <text x="48" y="230">и проверенные сертификаты.</text>
+      <text x="568" y="207">Привязка служебной идентичности</text>
+      <text x="568" y="230">к разрешённой очереди.</text>
+    </g>
+    <g fill="none" stroke="#276284" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M458 178 H542"/>
+    </g>
+    <rect x="28" y="267" width="944" height="59" rx="12" fill="#fff2de"/>
+    <text x="48" y="303" font-size="19" fill="#754b24"><tspan font-weight="700">M32.</tspan> TLS успешен, отправитель Б ошибочно получил допуск к очереди А.</text>
+  </g>
+</svg>
