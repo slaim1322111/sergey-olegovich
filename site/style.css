@@ -1,0 +1,49 @@
+:root {
+  color-scheme: light;
+  font: 100%/1.55 "Segoe UI", system-ui, sans-serif;
+  color: #17283d;
+  background: #f5f8fc;
+  --ink: #10283c;
+  --link: #075871;
+  --line: #ccd9e4;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: var(--link); text-underline-offset: .18em; }
+a:hover { color: #063749; }
+a:focus-visible, summary:focus-visible { outline: 3px solid #16859d; outline-offset: 4px; }
+
+.wrap { width: min(100% - 3rem, 74rem); margin-inline: auto; }
+.masthead { background: var(--ink); color: #f2f8fd; padding: 3.2rem 0; }
+.club { margin: 0 0 .65rem; color: #aee0ee; font-weight: 600; }
+h1 { max-width: 29ch; font-size: clamp(1.95rem, 4.4vw, 3.65rem); letter-spacing: -.035em; line-height: 1.1; margin: 0 0 1.45rem; }
+.repo { color: #cceaf6; }
+.repo:hover { color: white; }
+
+.catalog { display: grid; grid-template-columns: minmax(14rem, 1fr) minmax(0, 3fr); gap: 3rem; padding-block: 2.7rem 4rem; }
+nav { align-self: start; position: sticky; top: 1.5rem; }
+nav h2 { font-size: 1rem; margin: 0 0 .7rem; }
+nav ol { margin: 0; padding-left: 1.35rem; }
+nav li { padding: .3rem 0 .3rem .24rem; }
+nav li::marker { color: #536982; }
+
+.topic { padding: 0 0 1.85rem; margin: 0 0 1.85rem; border-bottom: 1px solid var(--line); scroll-margin-top: 1.7rem; }
+.topic:last-child { margin-bottom: 0; }
+.topic h2 { margin: 0 0 1rem; font-size: clamp(1.25rem, 2.8vw, 1.65rem); line-height: 1.25; }
+.overview { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1.25rem; margin-bottom: .95rem; }
+.primary { display: inline-block; padding: .55rem .9rem; background: #0c5770; color: white; text-decoration: none; border-radius: .3rem; font-weight: 600; }
+.primary:hover { background: #093d50; color: white; }
+.download { font-weight: 600; white-space: nowrap; }
+summary { width: fit-content; cursor: pointer; font-weight: 600; padding: .25rem 0; }
+.lecture-count { margin-left: .3rem; color: #536982; font-weight: 400; }
+.lectures { margin: .55rem 0 0; padding-left: 1.5rem; }
+.lectures li { padding: .4rem 0; }
+.lectures .download { display: inline-block; margin-left: .7rem; font-size: .88rem; }
+
+@media (max-width: 46rem) {
+  .wrap { width: calc(100% - 2rem); }
+  .masthead { padding: 2.2rem 0; }
+  .catalog { grid-template-columns: 1fr; gap: 1.9rem; padding-block: 1.55rem 2rem; }
+  nav { position: static; padding-bottom: 1.35rem; border-bottom: 1px solid var(--line); }
+}
